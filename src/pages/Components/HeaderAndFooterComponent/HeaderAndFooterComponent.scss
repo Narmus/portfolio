@@ -1,0 +1,20 @@
+.header-and-footer {
+  .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ededed;
+    height: 5vh;
+  }
+  .footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #ededed;
+    height: 15vh;
+  }
+  .content-body {
+    margin-top: 5vh;
+    margin-bottom: 15vh;
+  }
+}
