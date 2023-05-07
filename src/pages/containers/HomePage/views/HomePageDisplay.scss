@@ -1,3 +1,15 @@
 .homepage {
-  font-family: "Foldit";
+  h1 {
+    font-family: "Foldit";
+    margin: 0;
+    padding: 20px 20px 0 20px;
+    font-size: 5rem;
+    text-align: center;
+  }
+
+  .designation {
+    color: #c0c0c0;
+    text-align: center;
+    font-size: 2rem;
+  }
 }

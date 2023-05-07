@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import { Row, Col } from "react-bootstrap";
 import { HomePageContext } from "./HomePageView";
 
 const HomePageDisplay = () => {
@@ -6,9 +7,10 @@ const HomePageDisplay = () => {
 
   return (
     <>
-      <div className="homepage">
-        <h1 className>ARUN M S</h1>
-      </div>
+      <Row className="homepage">
+        <h1 className="title">ARUN M S</h1>
+        <p className="designation">Fullstack Web Developer</p>
+      </Row>
     </>
   );
 };
