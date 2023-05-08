@@ -9,7 +9,12 @@ const HomePageDisplay = () => {
     <>
       <Row className="homepage">
         <h1 className="title">ARUN M S</h1>
-        <p className="designation">Fullstack Web Developer</p>
+        <ul>
+          <li>Web Developer</li>
+          <li>Front-End Developer</li>
+          <li>Back-End Developer</li>
+          <li>Fullstack Developer</li>
+        </ul>
       </Row>
     </>
   );
